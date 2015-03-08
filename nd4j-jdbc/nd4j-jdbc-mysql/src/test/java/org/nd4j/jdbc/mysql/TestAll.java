@@ -16,7 +16,7 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
 	MysqlLoaderTest.class,
-	org.nd4j.linalg.TestAll.class,
+	
 })
 public class TestAll {
 

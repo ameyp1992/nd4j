@@ -3,7 +3,7 @@ package org.nd4j.jdbc.mysql;
 import org.junit.runner.JUnitCore;
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
-
+import org.nd4j.*;
 /**
  * The class <code>TestAll</code> builds a suite that can be used to run all
  * of the tests within its package as well as within any subpackages of its
@@ -16,7 +16,7 @@ import org.junit.runners.Suite;
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
 	MysqlLoaderTest.class,
-	
+	org.nd4j.linalg.TestAll.class,
 })
 public class TestAll {
 

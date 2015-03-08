@@ -15,13 +15,15 @@ import org.junit.runners.Suite;
  */
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
+
+	org.nd4j.linalg.api.buffer.TestAll.class,
+	org.nd4j.linalg.api.io.TestAll.class,
 	org.nd4j.linalg.benchmark.TestAll.class,
 	org.nd4j.linalg.convolution.TestAll.class,
 	org.nd4j.linalg.indexing.TestAll.class,
 	org.nd4j.linalg.lossfunctions.TestAll.class,
 	org.nd4j.linalg.ops.TestAll.class,
 	org.nd4j.linalg.sampling.TestAll.class,
-	org.nd4j.linalg.api.buffer.TestAll.class,
 })
 public class TestAll {
 
